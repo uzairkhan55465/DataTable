@@ -8,6 +8,7 @@ const DataTable = () => {
     axios.get("https://jsonplaceholder.typicode.com/posts").then(res => {
       console.log(res)
       setData(res.data)
+      
     })
   }, [])
 
