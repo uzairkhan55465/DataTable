@@ -10,7 +10,7 @@ const DataTable = () => {
       setData(res.data)
     })
   }, [])
-  console.log("data", data)
+
 
   const filteredData = data.filter(
     items =>
